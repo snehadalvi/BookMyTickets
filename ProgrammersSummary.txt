@@ -1,0 +1,15 @@
+Sneha Dalvi
+
+I involved in Database design and writing insert queries.
+I implemented all the functionalities of the system which are as follows.
+1. Registration (For this, I helped Osman to correct the functionality)
+2. Login
+3. Search shows by movie or theatre
+4. Select an available show
+5. Pay and book tickets online
+6. Logout
+I created README.txt file.
+
+Programmer to Manager Evaluation: +0 - Meets Expectations
+
+**************************************************************************

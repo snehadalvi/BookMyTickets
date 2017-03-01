@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="default" extends="struts-default">
+		
+		<action name="Login" class="com.bms.actions.LoginAction">
+			<result name="invalid">invalid_login.jsp</result>
+			<result name="input">login.jsp</result>
+			<result name="success">welcome.jsp</result>
+		</action>
+		
+		<action name="RetrieveData" class="com.bms.actions.RetrieveDataAction">
+			<result name="error">invalid_login.jsp</result>
+			<result name="input">SearchShows.jsp</result>
+			<result name="success">SearchShows.jsp</result>
+		</action>
+		
+		<action name="SearchShows" class="com.bms.actions.SearchShowsAction">
+			<result name="error">invalid_login.jsp</result>
+			<result name="input">SearchShows.jsp</result>
+			<result name="success">SearchShows.jsp</result>
+		</action>
+		
+		<action name="BookShow" class="com.bms.actions.BookShowAction">
+			<result name="error">invalid_login.jsp</result>
+			<result name="input">SearchShows.jsp</result>
+			<result name="success">BookShow.jsp</result>
+			<result name="invalidlogin">login.jsp</result>
+		</action>
+		
+		<action name="PayAndBook" class="com.bms.actions.PayAndBookAction">
+			<result name="error">invalid_login.jsp</result>
+			<result name="input">BookShow.jsp</result>
+			<result name="success">BookingSummary.jsp</result>
+			<result name="invalidlogin">login.jsp</result>
+		</action>
+		
+		<action name="Logout" class="com.bms.actions.LogoutAction">
+			<result name="error">invalid_login.jsp</result>
+			<result name="success">login.jsp</result>
+		</action>
+		
+		<action name="Register" class="com.bms.actions.RegisterAction">
+			<result name="input">register.jsp</result>
+			<result name="success">login.jsp</result>	
+		</action>
+		
+	</package>
+</struts>
