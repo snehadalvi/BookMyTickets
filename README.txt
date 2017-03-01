@@ -1,7 +1,7 @@
 Project Title: Online Movie Ticket Booking System (BookMyTickets)
 		- Database Systems Final Project
 
-Created by: Sneha Dalvi, Osman Ali, Jiajun Xu, Anuja Jadhav
+Created by: Sneha Dalvi
 
 **************************************************************************
 
@@ -31,9 +31,7 @@ Steps to run the project:
 1. Import the project in Eclipse and configure build path if necessary.
 
 2. Create database called "bms" in Postgresql and Run "Database Schema.sql" located in the project folder.
-We used following credentials for database connection.
-Username: postgres
-Password: sneha@212
+
 If you want to use your database credentials, please change the credentials in "com.bms.dao.DBConnection.java" line number 25.
 
 3. Run the project on Apache Tomcat 7 server
